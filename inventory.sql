@@ -69,12 +69,6 @@ EXEC sys.sp_db_vardecimal_storage_format N'DMSInventory', N'ON'
 GO
 USE [DMSInventory]
 GO
-/****** Object:  User [TECH\jgregory9]    Script Date: 2/25/2015 9:17:17 AM ******/
-CREATE USER [TECH\jgregory9] FOR LOGIN [TECH\jgregory9] WITH DEFAULT_SCHEMA=[dbo]
-GO
-/****** Object:  User [TECH\jcollins3]    Script Date: 2/25/2015 9:17:18 AM ******/
-CREATE USER [TECH\jcollins3] FOR LOGIN [TECH\jcollins3] WITH DEFAULT_SCHEMA=[dbo]
-GO
 /****** Object:  User [dmsinventory]    Script Date: 2/25/2015 9:17:18 AM ******/
 CREATE USER [dmsinventory] FOR LOGIN [dmsinventory] WITH DEFAULT_SCHEMA=[dbo]
 GO
